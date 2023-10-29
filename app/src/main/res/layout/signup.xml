@@ -88,17 +88,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/passwordMobileLayout"
             android:layout_below="@+id/passwordEditText"
-            android:layout_marginTop="30dp">
+            android:layout_marginTop="30dp"
+            >
 
-            <!--  <EditText
-                  android:id="@+id/passwordPrefixEditText"
-                  android:layout_width="100dp"
-                  android:layout_height="wrap_content"
-                  android:inputType="textPassword"
-                  android:drawableEnd="@drawable/dropdown"
-                  android:drawableStart="@drawable/callicon"
-                  android:hint="+213"
-                  android:layout_centerVertical="true"/>-->
             <Spinner
                 android:id="@+id/CoCode"
                 android:layout_width="100dp"
@@ -106,14 +98,13 @@
                 android:layout_centerVertical="true"
                 />
 
-
             <EditText
                 android:id="@+id/mobileEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@+id/CoCode"
-                android:layout_centerVertical="true"
-                android:hint="Mobile" />
+                android:hint="Mobile"
+                />
 
         </RelativeLayout>
 
@@ -128,16 +119,36 @@
             android:id="@+id/signupButton"
             android:background="@drawable/button"
             />
-            <TextView
-                android:id="@+id/tosignin"
+
+
+
+            <LinearLayout
+                android:layout_below="@id/signupButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="All reday have an account ! sign in "
-                android:layout_below="@+id/signupButton"
-                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
                 android:layout_marginTop="20dp"
-                android:onClick="onSignInClick"
-                />
+                android:layout_centerHorizontal="true"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="All reday have an account !  "
+                    android:layout_below="@+id/signupButton"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sign in"
+                    android:textColor="@color/blue"
+                    android:textStyle="bold"
+                    android:layout_below="@+id/signupButton"
+
+
+                    android:onClick="onSignInClick"
+                    />
+            </LinearLayout>
+
         </RelativeLayout>
     </RelativeLayout>
 
