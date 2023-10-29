@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/white"
+    >
+
+    <RelativeLayout
+        android:id="@+id/headerSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        >
+
+        <TextView
+            android:id="@+id/PageHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_below="@+id/PageHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="welcom back to your main profile"
+            android:textSize="15dp"
+            />
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_below="@+id/headerSection"
+        android:id="@+id/firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Name"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_below="@+id/firstname"
+        android:id="@+id/firstnameV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:text="your name here"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_below="@+id/firstnameV"
+        android:id="@+id/lastname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last Name"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_below="@+id/lastname"
+        android:id="@+id/lastnameV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="your last name here"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        />
+
+
+
+
+    <TextView
+        android:layout_below="@+id/lastnameV"
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_below="@+id/email"
+        android:id="@+id/emailV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="your email here"
+        />
+
+
+
+    <TextView
+        android:layout_below="@+id/emailV"
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mobile Phone"
+        android:layout_marginTop="20dp"
+        />
+    <TextView
+        android:layout_below="@+id/mobile"
+        android:id="@+id/mobileV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:text="your phone number here"
+        />
+
+
+
+
+    <!-- You can add more UI elements here for your result screen -->
+</RelativeLayout>
