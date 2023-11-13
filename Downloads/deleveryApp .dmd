@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="deleveryApp " id="BCAFDCD6-0A0A-1246-89C6-4C2C2114A179" version="3.5">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:36:20 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BCAFDCD6-0A0A-1246-89C6-4C2C2114A179</designId>
+</OSDM_Design>

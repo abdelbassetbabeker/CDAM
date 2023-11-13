@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="77D57B3D-89D5-9C90-F7AD-642742B9C3D0" name="Agent">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:44:02 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="0DF1D7D0-3232-9ACF-F55C-62F188EB2B23">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:44:02 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ipAddress" id="757D6ED1-16B9-B2C5-9CC9-A513A43B98B8">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:44:02 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8EF6A2BA-9ED6-9B6C-6BAC-AC8132DE04F9" name="User PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:44:02 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0DF1D7D0-3232-9ACF-F55C-62F188EB2B23</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
