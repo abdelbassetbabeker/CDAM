@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D1EBAEDC-3AFD-D0A1-5031-01AA5D379A75" name="Address">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>A7557556-7FF5-2153-97E6-1F2E50E1DAE7</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FEFEA3A7-2BCD-BD3D-773E-54CCF58C11FD">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>2F07A680-8CE8-231F-A8CE-A660BB149B4C</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="62BFA3E7-D0FA-D0B4-DE2A-B91EF2668FE8">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>F9AE5865-CA7B-BFCC-1F06-DEC96D1B4250</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="03E24A28-69E8-6C7F-26C2-03DBDCE82199">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>310831A6-13A9-DD12-3277-EFFCA4C30EAF</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="postalCode" id="9F9D12C3-B804-6A83-4369-C25D097123AE">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>977015C8-7A9F-6DA4-81D7-68DDDAADFA32</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="country" id="E8D00B4B-A939-5718-42C7-FAD1642CD9B3">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>95CDF21D-2277-6879-69B3-62ADFC48597B</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GeoPosition_id" id="4E7DEBAA-D9F5-76EC-FB44-A7EB04F26CF0">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>40C06825-8642-E2C1-4818-1D9B6AA8C39B</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E664462B-A517-BFDB-A11D-69D5BB106DA7" referredColumn="8D245ABC-DF92-CA2F-BC8B-E17A3E01ACA4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BE3AEA8F-14B7-0ED7-4F30-4EFD4E65ECAA" name="Address_PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>02755137-8540-1CE9-DE92-B0CAB71DF83E</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FEFEA3A7-2BCD-BD3D-773E-54CCF58C11FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4561ECDA-812A-45BB-F8B7-CC59593CCE99" name="Address_GeoPosition_FK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>90B18483-7239-D9D2-2FD7-28AAD809F501</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E7DEBAA-D9F5-76EC-FB44-A7EB04F26CF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

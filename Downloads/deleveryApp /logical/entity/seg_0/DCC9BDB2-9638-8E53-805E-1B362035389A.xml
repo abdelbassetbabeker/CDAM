@@ -34,7 +34,6 @@
 <engineerTo>
 <item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -48,7 +47,6 @@
 <engineerTo>
 <item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -62,7 +60,6 @@
 <engineerTo>
 <item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -76,7 +73,6 @@
 <engineerTo>
 <item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -90,7 +86,6 @@
 <engineerTo>
 <item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -103,8 +98,9 @@
 <createdBy>basst</createdBy>
 <createdTime>2023-11-13 08:43:52 UTC</createdTime>
 <ownerDesignName>deleveryApp </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

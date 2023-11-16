@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E931ECE0-CA1C-B510-118F-B833E05BE8C2" name="OrderItem">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Order_id" id="BA7203F9-ABCF-1295-A46D-D3921F973EF4">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="429FA717-DC71-9AEB-0763-7F2BBE74812F" referredColumn="0BFE93CA-1D97-CE2C-89FE-C83123E75F75"/>
+</associations>
+</Column>
+<Column name="Order_DeliveryGuy_id" id="39BC1751-F5B4-CBF7-8A87-3D2755DA7263">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="429FA717-DC71-9AEB-0763-7F2BBE74812F" referredColumn="04AFA792-94AD-9147-1BC4-E9B9CA063BA3"/>
+</associations>
+</Column>
+<Column name="Order_Client_id" id="F93A4862-B88B-3901-C2A2-3A1FF2405B1F">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="429FA717-DC71-9AEB-0763-7F2BBE74812F" referredColumn="753C00D8-1E71-BE31-1076-86B99BE6FF04"/>
+</associations>
+</Column>
+<Column name="Item_id" id="A1912813-466C-5F5A-9C19-B8A991A6844A">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A2C293C1-A451-71D6-1B5C-7F35D994ED49" referredColumn="4C8AD241-D163-F780-6E40-3FA17AC4403B"/>
+</associations>
+</Column>
+<Column name="quantity" id="2D1FF5A6-ED9C-66A0-D4AB-13F50C6A8120">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>94A81238-4C39-A9F7-CB29-64C0BB778E4A</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+<Column name="photoFilePath" id="461CFC8C-B966-7212-5B19-876AA43D1D28">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>6000F5FC-F6A9-0F7C-6DFA-F64B3041C70A</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isRelationshipColumn>true</isRelationshipColumn>
+<isDependOnFK_AsMandatory>true</isDependOnFK_AsMandatory>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="83312D39-BB75-A813-422A-8FA8119D8017" name="OrderItem_PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA7203F9-ABCF-1295-A46D-D3921F973EF4"/>
+<colUsage columnID="39BC1751-F5B4-CBF7-8A87-3D2755DA7263"/>
+<colUsage columnID="F93A4862-B88B-3901-C2A2-3A1FF2405B1F"/>
+<colUsage columnID="A1912813-466C-5F5A-9C19-B8A991A6844A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="92E9D37C-C50E-1509-BD80-67F7597E5556" name="OrderItem_Order_FK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>54BC38E9-F431-94D0-B732-E09C69C73067</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA7203F9-ABCF-1295-A46D-D3921F973EF4"/>
+<colUsage columnID="39BC1751-F5B4-CBF7-8A87-3D2755DA7263"/>
+<colUsage columnID="F93A4862-B88B-3901-C2A2-3A1FF2405B1F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5E5F11AE-E68B-E9FF-57A0-DB9C083E5CF3" name="OrderItem_Item_FK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>54BC38E9-F431-94D0-B732-E09C69C73067</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1912813-466C-5F5A-9C19-B8A991A6844A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E664462B-A517-BFDB-A11D-69D5BB106DA7" containerWithKeyObject="D1EBAEDC-3AFD-D0A1-5031-01AA5D379A75" localFKIndex="4561ECDA-812A-45BB-F8B7-CC59593CCE99" name="Address_GeoPosition_FK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>90B18483-7239-D9D2-2FD7-28AAD809F501</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<referredTableLongName>GeoPosition</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B94FC72F-333B-9908-343D-B6F64DF9AB26</referredTableID>
+<keyObject>43E74F1F-D113-1CB4-78EE-F71434D9EBE2</keyObject>
+<referredKeyID>43E74F1F-D113-1CB4-78EE-F71434D9EBE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

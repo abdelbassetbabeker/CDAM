@@ -74,8 +74,9 @@
 <createdBy>basst</createdBy>
 <createdTime>2023-11-13 08:51:45 UTC</createdTime>
 <ownerDesignName>deleveryApp </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

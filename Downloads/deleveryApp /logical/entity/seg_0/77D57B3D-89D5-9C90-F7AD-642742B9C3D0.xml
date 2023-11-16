@@ -11,6 +11,7 @@
 <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
 <growthPercent>0</growthPercent>
 <growthType>Year</growthType>
+<hierarchicalParent>DCC9BDB2-9638-8E53-805E-1B362035389A</hierarchicalParent>
 <maxVolumes>9999999</maxVolumes>
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
@@ -34,7 +35,6 @@
 <engineerTo>
 <item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
@@ -47,8 +47,9 @@
 <createdBy>basst</createdBy>
 <createdTime>2023-11-13 08:44:02 UTC</createdTime>
 <ownerDesignName>deleveryApp </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

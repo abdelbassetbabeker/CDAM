@@ -83,14 +83,29 @@
 <dataTypeSize>255</dataTypeSize>
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="40C06825-8642-E2C1-4818-1D9B6AA8C39B">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:41:17 UTC</createdTime>
+<generatorID>90B18483-7239-D9D2-2FD7-28AAD809F501</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<referedAttribute>F6F2DD42-3BE3-9FE6-8382-3E457E93269E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="02755137-8540-1CE9-DE92-B0CAB71DF83E" name="User PK">
 <createdBy>basst</createdBy>
 <createdTime>2023-11-13 08:48:29 UTC</createdTime>
 <ownerDesignName>deleveryApp </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

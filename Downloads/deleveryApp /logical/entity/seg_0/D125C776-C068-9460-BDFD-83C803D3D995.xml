@@ -107,18 +107,77 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="726F6EC6-F74F-6789-64C3-3DDCCA14C794">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:16:47 UTC</createdTime>
+<generatorID>498E76E7-4B7D-AAE5-F158-9095C7A7357E</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<referedAttribute>1632A4B3-6BD1-4889-7ED1-B915639E6689</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="5FBF583F-43E4-442C-F19B-46C0153B72DB">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:33:52 UTC</createdTime>
+<generatorID>6F512ED1-F055-3162-825E-7FD8653500EA</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<referedAttribute>F009FDE9-0E34-9F06-CE20-04875666DF65</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="3CED1178-3F48-F216-694B-68D7B8B6AF48">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:34:28 UTC</createdTime>
+<generatorID>12E6AD92-F8ED-DFE2-512A-148DFFC0925B</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<referedAttribute>2F07A680-8CE8-231F-A8CE-A660BB149B4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id4" id="C28F6587-D223-E1D2-90C5-BB26E6EAA405">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:35:07 UTC</createdTime>
+<generatorID>D34F8D56-8855-41E3-BC03-BFDDA0405054</generatorID>
+<ownerDesignName>deleveryApp </ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<referedAttribute>2F07A680-8CE8-231F-A8CE-A660BB149B4C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="C9F9CFA9-7264-CE93-26AE-55CB81B9D9B9" name="User PK">
 <createdBy>basst</createdBy>
 <createdTime>2023-11-13 08:49:44 UTC</createdTime>
 <ownerDesignName>deleveryApp </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>47F412D5-64AD-B6C9-E164-AA15BFD56570</attributeRef>
+<attributeRef>726F6EC6-F74F-6789-64C3-3DDCCA14C794</attributeRef>
+<attributeRef>5FBF583F-43E4-442C-F19B-46C0153B72DB</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
