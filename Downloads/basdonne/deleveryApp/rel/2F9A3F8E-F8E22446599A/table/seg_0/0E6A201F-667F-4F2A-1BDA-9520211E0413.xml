@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E6A201F-667F-4F2A-1BDA-9520211E0413" name="Agent">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>77D57B3D-89D5-9C90-F7AD-642742B9C3D0</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="632C03F2-FED7-3058-6959-6D623D74D5AC">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>802D55E6-9928-ECE3-09AE-06137696D787</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8B78761-EF77-32C9-B055-208155CDEFDA" referredColumn="AEC06B92-0CCB-83B7-2112-2EF8DAE8B964"/>
+</associations>
+</Column>
+<Column name="id1" id="5EBA1336-787E-F192-EAE2-487011C8201A">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>0DF1D7D0-3232-9ACF-F55C-62F188EB2B23</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ipAddress" id="3F7C9A9B-93A1-875F-CC09-5DA2DC79D203">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>757D6ED1-16B9-B2C5-9CC9-A513A43B98B8</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="813F5374-9644-AF6A-CC77-C9B62D71BC8C" name="Agent_PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>64DE63EC-AC52-4D2A-1578-AAE4DE4D46E3</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="632C03F2-FED7-3058-6959-6D623D74D5AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9DB03923-E3B0-CE53-5D27-FA8EB7CAD6A9" name="Agent_PKv1">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>8EF6A2BA-9ED6-9B6C-6BAC-AC8132DE04F9</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EBA1336-787E-F192-EAE2-487011C8201A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82A06240-E67A-E8AB-F002-05E459CBB262" name="Agent_User_FK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>E3C97447-0D86-A17F-59D6-0DE1BC6B460A</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="632C03F2-FED7-3058-6959-6D623D74D5AC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

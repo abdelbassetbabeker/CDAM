@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CB274082-DB1C-6741-7546-388B67CC402E" name="Item">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:51:45 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="4FAF29B9-641B-20A7-7B8A-D25AC96F90D8">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:51:45 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="3983F423-1CB7-6340-B285-987F7669C3ED">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:51:45 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="11830816-E7F4-D271-88BF-1DAD425A9ED7">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:51:45 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="C7EAB92A-6F34-9F4A-2395-C1DA8A5FC9F3">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:51:45 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EA96733C-84C8-8C27-FDC3-783CBA6150B3" name="User PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:51:45 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4FAF29B9-641B-20A7-7B8A-D25AC96F90D8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

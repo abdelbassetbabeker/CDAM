@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DCC9BDB2-9638-8E53-805E-1B362035389A" name="User">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:36:52 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="802D55E6-9928-ECE3-09AE-06137696D787">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:40:05 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="firstname" id="BEE3A3AF-A3B3-B2F5-70E5-A6A9B4EBE9A3">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:40:47 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="lastname" id="39FAD3A8-1229-7B8F-E304-30929ADEA4A7">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:40:57 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="FE494B5F-C277-770F-84C4-D13AB7032AC4">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:41:34 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="748DCD48-2A04-C03F-C622-7F78D4E2109D">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:41:58 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phoneNumber" id="03938F65-B86F-63F7-B347-E98D17734238">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:42:17 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="64DE63EC-AC52-4D2A-1578-AAE4DE4D46E3" name="User PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-13 08:43:52 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>802D55E6-9928-ECE3-09AE-06137696D787</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

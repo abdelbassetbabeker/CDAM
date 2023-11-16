@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EA138E4B-082F-7664-0FC3-7C6E55966C05" name="Client">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>254B0D1E-B6E9-88D4-7E38-F9908CC9FB6C</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="D00900E5-DD6C-8E9B-99E2-24A18EDAE320">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>802D55E6-9928-ECE3-09AE-06137696D787</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="322DA320-4342-03E8-1026-E55E43BFACC2" referredColumn="AEC06B92-0CCB-83B7-2112-2EF8DAE8B964"/>
+</associations>
+</Column>
+<Column name="id1" id="BAB6D380-DF3D-D8BB-1EC1-386AEC45D5CD">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>F009FDE9-0E34-9F06-CE20-04875666DF65</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="profilePhotoPath" id="5B26102C-F328-5E44-3DC9-6DC1D283984C">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>07464AA1-32B3-2C7F-2A5C-E76AF08DD022</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E92E9FCE-0533-1FFA-B749-48482EDC38B9" name="Client_PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>64DE63EC-AC52-4D2A-1578-AAE4DE4D46E3</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D00900E5-DD6C-8E9B-99E2-24A18EDAE320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF90D1D1-9507-3202-F31B-89134E9B06BD" name="Client_PKv1">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>E20D264D-D2B3-D128-A8FB-39D44E91AD8A</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BAB6D380-DF3D-D8BB-1EC1-386AEC45D5CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C8B82E95-A876-6116-A07D-2DFE96328271" name="Client_User_FK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:47:29 UTC</createdTime>
+<generatorID>BDC30302-BF29-373B-FFFD-DE54070D609B</generatorID>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D00900E5-DD6C-8E9B-99E2-24A18EDAE320"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

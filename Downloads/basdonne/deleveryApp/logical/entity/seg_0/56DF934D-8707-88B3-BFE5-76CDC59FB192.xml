@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56DF934D-8707-88B3-BFE5-76CDC59FB192" name="GeoPosition">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:37:30 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="F6F2DD42-3BE3-9FE6-8382-3E457E93269E">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:37:42 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="latitude" id="17A56FDC-56DA-E92D-40D9-BFA41CF5B0B8">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:38:10 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="longitude" id="EB6BB58D-BF65-06AD-22A2-86AA02FC92E7">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:38:42 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E18E1BC9-4B90-9805-CE55-FBE06D3A7A04" name="GeoPosition PK">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:40:30 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F6F2DD42-3BE3-9FE6-8382-3E457E93269E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

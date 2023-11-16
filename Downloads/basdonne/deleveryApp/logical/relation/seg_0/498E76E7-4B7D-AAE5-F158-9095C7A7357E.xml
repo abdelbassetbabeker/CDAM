@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DeliveryGuy_Order" directorySegmentName="seg_0" id="498E76E7-4B7D-AAE5-F158-9095C7A7357E">
+<createdBy>basst</createdBy>
+<createdTime>2023-11-16 09:16:47 UTC</createdTime>
+<ownerDesignName>deleveryApp</ownerDesignName>
+<engineerTo>
+<item key="2F9A3F8E-A180-D7AB-3E1B-F8E22446599A" value="true"/>
+</engineerTo>
+<sourcePk>0DDC770A-3335-9986-7D2D-8687CF509950</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>F0F3EEEA-5DD5-0AD8-F963-9726F00302A4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D125C776-C068-9460-BDFD-83C803D3D995</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
