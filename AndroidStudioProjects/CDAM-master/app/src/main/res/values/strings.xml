@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginApp</string>
+
+
+    <string-array name="phoneCode">
+        <item>+213</item>
+        <item>+214</item>
+        <item>+215</item>
+    </string-array>
+</resources>
